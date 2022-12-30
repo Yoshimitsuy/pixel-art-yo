@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+:root {
+  --white: #FFF;
+  --whitesmoke: #F9F9F9;
+  --light-grey: #ECECEC;
+  --grey: #C4C4C4;
+  --medium-grey: #A7A7A7;
+  --deep-grey: #343434;
+  --black: #000000;
+  --blue: #1B77F3;
+  --red: #aa3f41;
+}
+
+#body {
+  width: auto;
+  margin: auto;
+  width: 750px;
+  background-image: url('./kid-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 1;
+  position: relative;
+}
+
+.color {
+  border-radius: 10px;
+
+}
+
+#random-colors {
+  width: 120px;
+  height: 10px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--red);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 3px;
+  box-shadow: 5px 10px 8px var(--medium-grey);
+  transition: all 300ms ease-in-out;
+}
+
+#random-colors:hover {
+  background: rgba(247, 0, 0, 0.815);
+  box-shadow: 2px 5px 4px var(--medium-grey);
+  
+}
+
+#clear-board {
+  width: 120px;
+  height: 1px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--red);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 3px;
+  box-shadow: 5px 10px 8px var(--medium-grey);
+  transition: all 300ms ease-in-out;
+}
+
+#clear-board:hover {
+  background: rgba(247, 0, 0, 0.815);
+  box-shadow: 2px 5px 4px var(--medium-grey);
+  
+}
